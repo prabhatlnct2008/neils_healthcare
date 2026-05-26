@@ -177,7 +177,7 @@ export default function AboutPage() {
               </p>
 
               <p>
-                This is why the consultation takes 60 minutes. Dr. Neil needs to understand not just your symptoms, but <em>you</em>: your sleep patterns, your stress triggers, what you crave, what makes you feel better or worse, your childhood illnesses, your family history. Classical homeopathy works by matching the remedy to the totality of who you are.
+                This is why the consultation takes 30 minutes. Dr. Neil needs to understand not just your symptoms, but <em>you</em>: your sleep patterns, your stress triggers, what you crave, what makes you feel better or worse, your childhood illnesses, your family history. Classical homeopathy works by matching the remedy to the totality of who you are.
               </p>
 
               <p>

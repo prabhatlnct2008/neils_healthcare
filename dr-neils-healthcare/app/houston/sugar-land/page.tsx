@@ -28,7 +28,7 @@ export default function SugarLandPage() {
             </DisplayHeading>
 
             <p className="text-xl text-ink-secondary leading-relaxed">
-              Telehealth consultations for all of Sugar Land — First Colony, Telfair, Riverstone, Sweetwater, and surrounding areas. Indian homeopathy training (BHMS). $150 for 60 minutes.
+              Telehealth consultations for all of Sugar Land — First Colony, Telfair, Riverstone, Sweetwater, and surrounding areas. Indian homeopathy training (BHMS). $150 for 30 minutes.
             </p>
 
             <div className="pt-4">
@@ -111,7 +111,7 @@ export default function SugarLandPage() {
                   All consultations are conducted via secure, HIPAA-compliant video. No need to drive to Houston — meet with Dr. Neil from your home in First Colony, Telfair, Riverstone, or anywhere in Sugar Land.
                 </p>
                 <p className="text-sm text-ink-tertiary">
-                  60-minute consultation · $150
+                  30-minute consultation · $150
                 </p>
               </div>
 
@@ -141,7 +141,7 @@ export default function SugarLandPage() {
             </DisplayHeading>
 
             <p className="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-              Telehealth consultations across Sugar Land. Indian homeopathy training (BHMS). Classical approach. $150 for 60 minutes.
+              Telehealth consultations across Sugar Land. Indian homeopathy training (BHMS). Classical approach. $150 for 30 minutes.
             </p>
 
             <div className="pt-4 flex flex-col sm:flex-row gap-4 justify-center">

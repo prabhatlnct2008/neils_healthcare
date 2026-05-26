@@ -21,10 +21,10 @@ export const pricingTiers: PricingTier[] = [
     id: "initial",
     name: "Initial Consultation",
     price: 150,
-    duration: "60 minutes",
+    duration: "30 minutes",
     description: "For new patients",
     inclusions: [
-      "Full 60-minute consultation",
+      "Full 30-minute consultation",
       "Written remedy plan in 48 hours",
       "30-day email follow-up window",
     ],
@@ -38,8 +38,8 @@ export const pricingTiers: PricingTier[] = [
     duration: "Initial + 2 follow-ups",
     description: "Saves $41 vs separate bookings",
     inclusions: [
-      "One 60-minute initial consultation",
-      "Two 30-minute follow-ups (within 6 months)",
+      "One 30-minute initial consultation",
+      "Two 15-minute follow-ups (within 6 months)",
       "Acute support between visits",
       "Priority booking",
     ],
@@ -52,7 +52,7 @@ export const pricingTiers: PricingTier[] = [
     id: "followup",
     name: "Follow-up",
     price: 85,
-    duration: "30 minutes",
+    duration: "15 minutes",
     description: "For existing patients",
     inclusions: [
       "Treatment progress review",

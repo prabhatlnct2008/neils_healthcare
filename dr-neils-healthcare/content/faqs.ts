@@ -40,7 +40,7 @@ export const faqs: FAQ[] = [
   {
     question: "What happens during my $150 consultation?",
     answer:
-      "A lot of questions. About your symptoms, your medical history, your sleep, your moods, your stress, your cravings, what time of day you feel best. Every detail helps Dr. Neil match the remedy to *you*. Most consultations run a full 60 minutes. We don't rush.",
+      "A lot of questions. About your symptoms, your medical history, your sleep, your moods, your stress, your cravings, what time of day you feel best. Every detail helps Dr. Neil match the remedy to *you*. Most consultations run a full 30 minutes. We don't rush.",
     category: "practice",
   },
   {

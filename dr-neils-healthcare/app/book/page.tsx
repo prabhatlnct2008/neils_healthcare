@@ -18,7 +18,7 @@ import { Button } from "@/components/primitives/Button";
 export const metadata: Metadata = {
   title: "Book Appointment | Dr Neil's Healthcare | Houston Homeopathy",
   description:
-    "Book your homeopathic consultation online. In-person or telehealth across Texas. HIPAA-compliant booking. $150 for 60 minutes.",
+    "Book your homeopathic consultation online. In-person or telehealth across Texas. HIPAA-compliant booking. $150 for 30 minutes.",
 };
 
 export default function BookPage() {
@@ -35,7 +35,7 @@ export default function BookPage() {
             </DisplayHeading>
 
             <p className="text-xl text-ink-secondary leading-relaxed">
-              60 minutes. $150. A personalized remedy plan delivered within 48 hours.
+              30 minutes. $150. A personalized remedy plan delivered within 48 hours.
             </p>
 
             {/* Trust Strip */}

@@ -2,13 +2,13 @@
 // PRIMARY KEYWORD: homeopathy Houston
 // INTENT: Skeptical Houston-area visitor researching homeopathy; build trust, then convert
 // TARGET READER: 30–55, frustrated with rushed conventional care, researching for weeks
-// TOP 3 TRUST SIGNALS: honest about controversy, $150 transparent pricing, real listening (60 min)
+// TOP 3 TRUST SIGNALS: honest about controversy, $150 transparent pricing, real listening (30 min)
 //
 // SECTIONS (in order, per landing copy v3):
 //  1. Hero (8 col) + Trust Stat (4 col)
 //  2. Trust Bar — 4-up benefit chips (full width)
 //  3. What Is Homeopathy (8 col copy + 4 col visual)
-//  4. Bento Grid (signature) — feature, $150, process, 60-min, map, testimonial, conditions, botanical
+//  4. Bento Grid (signature) — feature, $150, process, 30-min, map, testimonial, conditions, botanical
 //  5. Conditions tile grid (8 conditions)
 //  6. Why Houston Chooses Us (4 differentiators)
 //  7. Meet Dr. Neil (bio + photo)
@@ -94,7 +94,7 @@ const trustBar = [
 
 const processSteps = [
   { num: "01", label: "Book your consult", meta: "10 min" },
-  { num: "02", label: "60-minute deep dive", meta: "secure video" },
+  { num: "02", label: "30-minute deep dive", meta: "secure video" },
   { num: "03", label: "Personalized plan", meta: "48 hr turnaround" },
   { num: "04", label: "Remedy at your door", meta: "5–7 days" },
 ];
@@ -125,7 +125,7 @@ const differentiators = [
   },
   {
     title: "You actually get listened to.",
-    body: "Sixty minutes. No interruptions. No clock-watching. Patients tell us the consultation itself is part of the healing.",
+    body: "Thirty minutes. No interruptions. No clock-watching. Patients tell us the consultation itself is part of the healing.",
   },
   {
     title: "Houston-based, accessible everywhere in Texas.",
@@ -134,7 +134,7 @@ const differentiators = [
 ];
 
 const included = [
-  "60-minute consultation via secure video with Dr. Neil personally",
+  "30-minute consultation via secure video with Dr. Neil personally",
   "Pre-consultation intake form — completed online so we use every minute on you, not paperwork",
   "Detailed written remedy plan delivered within 48 hours",
   "Dosing instructions in plain English — what to take, when, and what to expect",
@@ -157,7 +157,7 @@ const journeySteps = [
   },
   {
     num: "02",
-    title: "Your 60-minute consultation",
+    title: "Your 30-minute consultation",
     body: "Over secure, HIPAA-compliant video. Dr. Neil will go deep — your current concerns, your medical history, your sleep, your stress, what you crave, what you can't stand. There are no wrong answers. Most patients tell us this is the first time a provider has actually listened.",
   },
   {
@@ -173,7 +173,7 @@ const journeySteps = [
   {
     num: "05",
     title: "Follow-up at 4–6 weeks",
-    body: "Healing isn't a one-shot deal. We check in to assess what's shifted, what hasn't, and whether we need to adjust. Follow-up consultations are 30 minutes and $85.",
+    body: "Healing isn't a one-shot deal. We check in to assess what's shifted, what hasn't, and whether we need to adjust. Follow-up consultations are 15 minutes and $85.",
   },
 ];
 
@@ -203,7 +203,7 @@ export default function HomePage() {
                 </DisplayHeading>
 
                 <p className="max-w-2xl text-lg leading-relaxed text-ink-secondary md:text-xl">
-                  A 60-minute consultation with Dr. Neil, a remedy plan made for
+                  A 30-minute consultation with Dr. Neil, a remedy plan made for
                   your body, and natural medicine delivered to your door within 7
                   days.
                 </p>
@@ -319,7 +319,7 @@ export default function HomePage() {
                   you've tried isn't the remedies. It's the{" "}
                   <strong className="text-ink-primary">consultation</strong>. A
                   conventional 12-minute appointment cannot capture who you are. A
-                  homeopath's appointment can. Dr. Neil spends an hour asking about
+                  homeopath's appointment can. Dr. Neil spends a half hour asking about
                   your sleep, your appetite, your moods, your stress, what makes
                   your symptoms better, what makes them worse. The right remedy
                   isn't the one that matches your <em>diagnosis</em> — it's the one
@@ -399,7 +399,7 @@ export default function HomePage() {
           <div className="mb-10">
             <Eyebrow className="mb-4">The system</Eyebrow>
             <DisplayHeading as="h2">
-              An hour of <em>real listening</em>. A remedy made for you.
+              A half hour of <em>real listening</em>. A remedy made for you.
             </DisplayHeading>
           </div>
 
@@ -429,7 +429,7 @@ export default function HomePage() {
                   $150
                 </div>
                 <p className="text-lg text-ink-primary">
-                  For a full hour with Dr. Neil
+                  For a half hour with Dr. Neil
                 </p>
                 <p className="pt-1 text-sm italic text-ink-tertiary">
                   Most US homeopaths charge $200–$700
@@ -486,12 +486,12 @@ export default function HomePage() {
               </div>
             </BentoCard>
 
-            {/* Card 5 — 60 MIN STAT (4 × 1) */}
+            {/* Card 5 — 30 MIN STAT (4 × 1) */}
             <BentoCard colSpan={4} rowSpan={1} variant="stat">
               <div className="space-y-1">
                 <Eyebrow>Every session</Eyebrow>
                 <div className="font-display text-5xl font-medium tracking-tight text-ink-primary">
-                  60 min
+                  30 min
                 </div>
                 <p className="text-sm text-ink-secondary">
                   No clock-watching. No rushed prescription.
@@ -952,7 +952,7 @@ export default function HomePage() {
             <Eyebrow className="text-ink-on-dark/70">Ready when you are</Eyebrow>
 
             <h2 className="font-display text-3xl font-normal leading-[1.05] tracking-tight md:text-5xl">
-              Sixty minutes.
+              Thirty minutes.
               <br />
               One hundred fifty dollars.
               <br />

@@ -19,7 +19,7 @@ import { Button } from "@/components/primitives/Button";
 export const metadata: Metadata = {
   title: "How a Homeopathic Consultation Works | Dr Neil's Healthcare",
   description:
-    "From booking to your first dose: learn what happens in a 60-minute homeopathic consultation. No rushed visits. Real listening. Personalized remedies.",
+    "From booking to your first dose: learn what happens in a 30-minute homeopathic consultation. No rushed visits. Real listening. Personalized remedies.",
 };
 
 export default function HowItWorksPage() {
@@ -33,10 +33,10 @@ export default function HowItWorksPage() {
     },
     {
       number: "02",
-      title: "Your 60-minute consultation",
+      title: "Your 30-minute consultation",
       meta: "Telehealth across Texas",
       description:
-        "Join Dr. Neil for a full hour via secure, HIPAA-compliant video. This isn't a rushed 12-minute appointment. Dr. Neil will ask detailed questions about your current symptoms, your medical history, your sleep patterns, your stress, what you crave, what you can't stand, what time of day you feel best. Every detail helps match the right remedy to your unique pattern. Most patients tell us this is the first time a healthcare provider has actually listened.",
+        "Join Dr. Neil for a half hour via secure, HIPAA-compliant video. This isn't a rushed 12-minute appointment. Dr. Neil will ask detailed questions about your current symptoms, your medical history, your sleep patterns, your stress, what you crave, what you can't stand, what time of day you feel best. Every detail helps match the right remedy to your unique pattern. Most patients tell us this is the first time a healthcare provider has actually listened.",
     },
     {
       number: "03",
@@ -55,9 +55,9 @@ export default function HowItWorksPage() {
     {
       number: "05",
       title: "Follow-up at 4–6 weeks",
-      meta: "30 minutes, $85",
+      meta: "15 minutes, $85",
       description:
-        "Healing isn't a one-shot deal. We check in to assess what's shifted, what hasn't, and whether we need to adjust. Follow-up consultations are 30 minutes and $85. This is where we fine-tune and track progress over time. Some patients need only one follow-up. Others benefit from ongoing support every 4–8 weeks.",
+        "Healing isn't a one-shot deal. We check in to assess what's shifted, what hasn't, and whether we need to adjust. Follow-up consultations are 15 minutes and $85. This is where we fine-tune and track progress over time. Some patients need only one follow-up. Others benefit from ongoing support every 4–8 weeks.",
     },
   ];
 
@@ -65,7 +65,7 @@ export default function HowItWorksPage() {
     {
       question: "What happens during my $150 consultation?",
       answer:
-        "A lot of questions. About your symptoms, your medical history, your sleep, your moods, your stress, your cravings, what time of day you feel best. Every detail helps Dr. Neil match the remedy to *you*. Most consultations run a full 60 minutes. We don't rush.",
+        "A lot of questions. About your symptoms, your medical history, your sleep, your moods, your stress, your cravings, what time of day you feel best. Every detail helps Dr. Neil match the remedy to *you*. Most consultations run a full 30 minutes. We don't rush.",
     },
     {
       question: "Do I need to prepare anything before my appointment?",
@@ -211,7 +211,7 @@ export default function HowItWorksPage() {
                 <li className="flex items-start gap-3">
                   <span className="text-accent text-lg flex-shrink-0 mt-0.5">•</span>
                   <div>
-                    <strong className="text-ink-primary">Block out the full hour</strong> — don't schedule back-to-back
+                    <strong className="text-ink-primary">Block out the full half hour</strong> — don't schedule back-to-back
                   </div>
                 </li>
               </ul>
@@ -264,7 +264,7 @@ export default function HowItWorksPage() {
                   4. Follow up at 4–6 weeks
                 </h3>
                 <p className="text-base text-ink-secondary leading-relaxed">
-                  Schedule your follow-up consultation (30 minutes, $85) at the 4-6 week mark. Dr. Neil will assess what's working, what's not, and whether to continue, adjust, or change remedies. This is how homeopathy works — iteratively, over time.
+                  Schedule your follow-up consultation (15 minutes, $85) at the 4-6 week mark. Dr. Neil will assess what's working, what's not, and whether to continue, adjust, or change remedies. This is how homeopathy works — iteratively, over time.
                 </p>
               </div>
             </div>
@@ -310,11 +310,11 @@ export default function HowItWorksPage() {
             <Eyebrow className="text-ink-on-dark/70">Ready to start?</Eyebrow>
 
             <DisplayHeading as="h2">
-              Book your <em>60-minute consultation</em>
+              Book your <em>30-minute consultation</em>
             </DisplayHeading>
 
             <p className="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-              $150. A full hour with Dr. Neil. A personalized remedy plan in 48 hours. No rush. Real listening.
+              $150. A half hour with Dr. Neil. A personalized remedy plan in 48 hours. No rush. Real listening.
             </p>
 
             <div className="pt-4">

@@ -123,7 +123,7 @@ export default function ChildrenPage() {
             </DisplayHeading>
 
             <p className="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-              Parents and kids seen together. 60 minutes, $150. Gentle, safe, effective.
+              Parents and kids seen together. 30 minutes, $150. Gentle, safe, effective.
             </p>
 
             <div className="pt-4">

@@ -132,7 +132,7 @@ export default function PricingPage() {
                 <li className="flex items-start gap-3">
                   <span className="text-accent flex-shrink-0 mt-1">•</span>
                   <div>
-                    <strong className="text-ink-primary">60-minute consultation</strong> (in-person or video) with Dr. Neil personally
+                    <strong className="text-ink-primary">30-minute consultation</strong> (in-person or video) with Dr. Neil personally
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
@@ -299,7 +299,7 @@ export default function PricingPage() {
             </DisplayHeading>
 
             <p className="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-              $150 for 60 minutes. A written remedy plan in 48 hours. Honest answers about
+              $150 for 30 minutes. A written remedy plan in 48 hours. Honest answers about
               what homeopathy can and can't do.
             </p>
 
