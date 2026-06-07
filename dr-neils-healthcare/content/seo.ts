@@ -13,7 +13,7 @@ export interface PageSEO {
 
 export const seoConfig: Record<string, PageSEO> = {
   "/": {
-    title: "Dr NillMani's Healthcare | Homeopathy in Houston | $150 Consultation",
+    title: "Dr. Neil's Healthcare | Homeopathy in Houston | $150 Consultation",
     description:
       "Personalized homeopathic care in Houston, Sugar Land, Katy & beyond. 30-minute consultation $150. Remedies delivered in 7 days. Book online.",
     ogImage: "/og/home.jpg",
@@ -21,26 +21,26 @@ export const seoConfig: Record<string, PageSEO> = {
       "homeopathy Houston",
       "homeopath Houston",
       "homeopathic doctor Houston",
-      "classical homeopath Houston",
+      "homeopath consultant Houston",
       "homeopath near me",
     ],
   },
 
   "/about-dr-nillmani": {
-    title: "About Dr. NillMani | Classical Homeopath in Houston, TX",
+    title: "About Dr. Nill Mani | Homeopath Consultant in Houston, TX",
     description:
-      "Meet Dr. NillMani, classical homeopath in Houston. Stanford-trained in herbal medicine, with BEMS and a PhD in biomedical engineering from IIT.",
+      "Meet Dr. Nill Mani, homeopath consultant in Houston. Stanford-trained in herbal medicine, with BEMS and a PhD in biomedical engineering from IIT.",
     ogImage: "/og/about.jpg",
     keywords: [
-      "classical homeopath Houston",
-      "Dr NillMani homeopathy",
+      "homeopath consultant Houston",
+      "Dr. Neil homeopathy",
       "best homeopath Houston",
       "Indian homeopathic doctor Houston",
     ],
   },
 
   "/how-it-works": {
-    title: "How a Homeopathic Consultation Works | Dr NillMani's Healthcare",
+    title: "How a Homeopathic Consultation Works | Dr. Neil's Healthcare",
     description:
       "From booking to your first dose: learn what happens in a 30-minute homeopathic consultation. No rushed visits. Real listening. Personalized remedies.",
     ogImage: "/og/how-it-works.jpg",
@@ -53,7 +53,7 @@ export const seoConfig: Record<string, PageSEO> = {
   },
 
   "/pricing": {
-    title: "Pricing | $150 Homeopathic Consultation | Dr NillMani's Healthcare",
+    title: "Pricing | $150 Homeopathic Consultation | Dr. Neil's Healthcare",
     description:
       "Transparent pricing for homeopathic care. Initial consultation $150, follow-ups $85. HSA/FSA eligible. No hidden fees. Book online.",
     ogImage: "/og/pricing.jpg",
@@ -66,7 +66,7 @@ export const seoConfig: Record<string, PageSEO> = {
   },
 
   "/book": {
-    title: "Book Appointment | Dr NillMani's Healthcare | Houston Homeopathy",
+    title: "Book Appointment | Dr. Neil's Healthcare | Houston Homeopathy",
     description:
       "Book your homeopathic consultation online. In-person or telehealth across Texas. HIPAA-compliant booking. $150 for 30 minutes.",
     ogImage: "/og/book.jpg",
@@ -79,7 +79,7 @@ export const seoConfig: Record<string, PageSEO> = {
   },
 
   "/faq": {
-    title: "FAQ | Homeopathy Questions Answered | Dr NillMani's Healthcare",
+    title: "FAQ | Homeopathy Questions Answered | Dr. Neil's Healthcare",
     description:
       "Get answers to common questions about homeopathy: safety, effectiveness, what to expect, insurance, and more. Honest, evidence-based answers.",
     ogImage: "/og/faq.jpg",
@@ -106,7 +106,7 @@ export const seoConfig: Record<string, PageSEO> = {
   },
 
   "/conditions/anxiety": {
-    title: "Homeopathy for Anxiety & Stress | Dr NillMani's Healthcare",
+    title: "Homeopathy for Anxiety & Stress | Dr. Neil's Healthcare",
     description:
       "Homeopathic treatment for anxiety, panic attacks, and chronic stress. Personalized remedies matched to your unique pattern. Works alongside conventional care.",
     ogImage: "/og/anxiety.jpg",
@@ -145,7 +145,7 @@ export const seoConfig: Record<string, PageSEO> = {
   },
 
   "/houston/sugar-land": {
-    title: "Homeopath in Sugar Land | Dr NillMani's Healthcare",
+    title: "Homeopath in Sugar Land | Dr. Neil's Healthcare",
     description:
       "Classical homeopathy serving Sugar Land, TX. IIT- and Stanford-trained practitioner. Telehealth across First Colony, Telfair, Riverstone, Sweetwater.",
     ogImage: "/og/sugar-land.jpg",
@@ -158,7 +158,7 @@ export const seoConfig: Record<string, PageSEO> = {
   },
 
   "/houston/katy": {
-    title: "Homeopath in Katy | Dr NillMani's Healthcare",
+    title: "Homeopath in Katy | Dr. Neil's Healthcare",
     description:
       "Classical homeopathy serving Katy, TX. Family-focused care for children and adults. Telehealth and Houston consultations. Serving Cinco Ranch, Cross Creek.",
     ogImage: "/og/katy.jpg",

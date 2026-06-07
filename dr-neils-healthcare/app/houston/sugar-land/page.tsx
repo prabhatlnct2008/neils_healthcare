@@ -9,7 +9,7 @@ import { Eyebrow } from "@/components/primitives/Eyebrow";
 import { Button } from "@/components/primitives/Button";
 
 export const metadata: Metadata = {
-  title: "Homeopath in Sugar Land | Dr NillMani's Healthcare",
+  title: "Homeopath in Sugar Land | Dr. Neil's Healthcare",
   description:
     "Classical homeopathy serving Sugar Land, TX. IIT- and Stanford-trained practitioner. Telehealth across First Colony, Telfair, Riverstone, Sweetwater.",
 };
@@ -45,7 +45,7 @@ export default function SugarLandPage() {
           <div className="max-w-4xl mx-auto space-y-8">
             <DisplayHeading as="h2">
               Why Sugar Land residents<br />
-              <em>choose Dr. NillMani</em>
+              <em>choose Dr. Nill Mani</em>
             </DisplayHeading>
 
             <div className="prose prose-lg max-w-none space-y-6 text-ink-secondary leading-relaxed">
@@ -54,7 +54,7 @@ export default function SugarLandPage() {
               </p>
 
               <p>
-                Dr. NillMani's multi-disciplinary training — including a PhD from IIT and certification in herbal medicine from Stanford — brings a thoughtful, integrative approach to classical homeopathy, adapted for Houston's climate and lifestyle.
+                Dr. Nill Mani's multi-disciplinary training — including a PhD from IIT and certification in herbal medicine from Stanford — brings a thoughtful, integrative approach to classical homeopathy, adapted for Houston's climate and lifestyle.
               </p>
 
               <div className="bg-bg-card border border-border-soft rounded-2xl p-8 space-y-4">
@@ -108,7 +108,7 @@ export default function SugarLandPage() {
                   Telehealth from Sugar Land
                 </h3>
                 <p className="text-base text-ink-secondary leading-relaxed mb-4">
-                  All consultations are conducted via secure, HIPAA-compliant video. No need to drive to Houston — meet with Dr. NillMani from your home in First Colony, Telfair, Riverstone, or anywhere in Sugar Land.
+                  All consultations are conducted via secure, HIPAA-compliant video. No need to drive to Houston — meet with Dr. Nill Mani from your home in First Colony, Telfair, Riverstone, or anywhere in Sugar Land.
                 </p>
                 <p className="text-sm text-ink-tertiary">
                   30-minute consultation · $150
@@ -154,7 +154,7 @@ export default function SugarLandPage() {
             </div>
 
             <p className="text-sm text-ink-on-dark/70 pt-4">
-              Questions? Email [Email] — Dr. NillMani replies within one business day
+              Questions? Email [Email] — Dr. Nill Mani replies within one business day
             </p>
           </div>
         </div>

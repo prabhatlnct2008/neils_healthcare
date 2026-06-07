@@ -365,7 +365,7 @@ export default function AllergiesPage() {
             </div>
 
             <p className="text-sm text-ink-on-dark/70 pt-4">
-              Questions first? Email [Email] — Dr. NillMani replies within one business day
+              Questions first? Email [Email] — Dr. Nill Mani replies within one business day
             </p>
           </div>
         </div>

@@ -11,7 +11,7 @@
 //  4. Bento Grid (signature) — feature, $150, process, 30-min, map, testimonial, conditions, botanical
 //  5. Conditions tile grid (8 conditions)
 //  6. Why Houston Chooses Us (4 differentiators)
-//  7. Meet Dr. NillMani (bio + photo)
+//  7. Meet Dr. Nill Mani (bio + photo)
 //  8. What's Included in your $150 consultation
 //  9. How It Works (full 5-step)
 // 10. Testimonials (3 stories)
@@ -119,11 +119,11 @@ const conditionPills = [
 const differentiators = [
   {
     title: "Fair pricing for real time and real expertise.",
-    body: "Most homeopaths in the U.S. charge $200–$400 for a new-patient visit. Some charge $700. Dr. NillMani charges $150 because individualized care should be accessible to working families, not just the wealthy. Remedies are priced honestly too — typically $15–$45 — and often last for months. HSA and FSA eligible.",
+    body: "Most homeopaths in the U.S. charge $200–$400 for a new-patient visit. Some charge $700. Dr. Nill Mani charges $150 because individualized care should be accessible to working families, not just the wealthy. Remedies are priced honestly too — typically $15–$45 — and often last for months. HSA and FSA eligible.",
   },
   {
     title: "Classical homeopathy, the way it should be practiced.",
-    body: "We are classical homeopaths. That means one remedy at a time, chosen carefully, matched to the totality of who you are. No 14-supplement protocols. No shotgun approaches. The right remedy, given gently, is enough.",
+    body: "We are homeopath consultants. That means one remedy at a time, chosen carefully, matched to the totality of who you are. No 14-supplement protocols. No shotgun approaches. The right remedy, given gently, is enough.",
   },
   {
     title: "You actually get listened to.",
@@ -136,7 +136,7 @@ const differentiators = [
 ];
 
 const included = [
-  "30-minute consultation via secure video with Dr. NillMani personally",
+  "30-minute consultation via secure video with Dr. Nill Mani personally",
   "Pre-consultation intake form — completed online so we use every minute on you, not paperwork",
   "Detailed written remedy plan delivered within 48 hours",
   "Dosing instructions in plain English — what to take, when, and what to expect",
@@ -160,12 +160,12 @@ const journeySteps = [
   {
     num: "02",
     title: "Your 30-minute consultation",
-    body: "Over secure, HIPAA-compliant video. Dr. NillMani will go deep — your current concerns, your medical history, your sleep, your stress, what you crave, what you can't stand. There are no wrong answers. Most patients tell us this is the first time a provider has actually listened.",
+    body: "Over secure, HIPAA-compliant video. Dr. Nill Mani will go deep — your current concerns, your medical history, your sleep, your stress, what you crave, what you can't stand. There are no wrong answers. Most patients tell us this is the first time a provider has actually listened.",
   },
   {
     num: "03",
     title: "Your personalized remedy plan",
-    body: "Within 48 hours, Dr. NillMani reviews your case and matches you to the remedy — or combination of remedies — that fits your unique pattern. You'll receive a written plan with dosing instructions, what to expect, and what to watch for.",
+    body: "Within 48 hours, Dr. Nill Mani reviews your case and matches you to the remedy — or combination of remedies — that fits your unique pattern. You'll receive a written plan with dosing instructions, what to expect, and what to watch for.",
   },
   {
     num: "04",
@@ -205,7 +205,7 @@ export default function HomePage() {
                 </DisplayHeading>
 
                 <p className="max-w-2xl text-lg leading-relaxed text-ink-secondary md:text-xl">
-                  A 30-minute consultation with Dr. NillMani, a remedy plan made for
+                  A 30-minute consultation with Dr. Nill Mani, a remedy plan made for
                   your body, and natural medicine delivered to your door within 7
                   days.
                 </p>
@@ -321,7 +321,7 @@ export default function HomePage() {
                   you've tried isn't the remedies. It's the{" "}
                   <strong className="text-ink-primary">consultation</strong>. A
                   conventional 12-minute appointment cannot capture who you are. A
-                  homeopath's appointment can. Dr. NillMani spends a half hour asking about
+                  homeopath's appointment can. Dr. Nill Mani spends a half hour asking about
                   your sleep, your appetite, your moods, your stress, what makes
                   your symptoms better, what makes them worse. The right remedy
                   isn't the one that matches your <em>diagnosis</em> — it's the one
@@ -431,7 +431,7 @@ export default function HomePage() {
                   $150
                 </div>
                 <p className="text-lg text-ink-primary">
-                  For a half hour with Dr. NillMani
+                  For a half hour with Dr. Nill Mani
                 </p>
                 <p className="pt-1 text-sm italic text-ink-tertiary">
                   Most US homeopaths charge $200–$700
@@ -613,7 +613,7 @@ export default function HomePage() {
             <Eyebrow className="mb-4">What makes us different</Eyebrow>
             <DisplayHeading as="h2">
               Why patients in Houston, Sugar Land &amp; Katy{" "}
-              <em>choose Dr. NillMani</em>.
+              <em>choose Dr. Nill Mani</em>.
             </DisplayHeading>
           </div>
 
@@ -638,7 +638,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 7. Meet Dr. NillMani */}
+      {/* 7. Meet Dr. Nill Mani */}
       <section className="w-full bg-bg-page py-16 md:py-20">
         <div className="container mx-auto max-w-7xl px-5 md:px-8">
           <div className="grid grid-cols-1 items-start gap-12 lg:grid-cols-12">
@@ -648,7 +648,7 @@ export default function HomePage() {
                 <div className="space-y-3 text-center">
                   <div className="text-6xl">👤</div>
                   <p className="text-sm text-ink-tertiary">
-                    Real photo of Dr. NillMani
+                    Real photo of Dr. Nill Mani
                     <br />
                     to be added here
                   </p>
@@ -660,12 +660,12 @@ export default function HomePage() {
             <div className="space-y-6 lg:col-span-8">
               <Eyebrow>Meet your homeopath</Eyebrow>
               <DisplayHeading as="h2">
-                Dr. NillMani — <em>Classical Homeopath</em> in Houston
+                Dr. Nill Mani — <em>Homeopath Consultant</em> in Houston
               </DisplayHeading>
 
               <div className="space-y-4 text-base leading-relaxed text-ink-secondary">
                 <p>
-                  Dr. NillMani is a classical homeopath serving the greater Houston
+                  Dr. Nill Mani is a homeopath consultant serving the greater Houston
                   area, with a multi-disciplinary foundation: a Bachelor of
                   Electropathy Medicine &amp; Surgery (BEMS), a PhD in Biomedical
                   Engineering from IIT, and Stanford certification in herbal
@@ -674,14 +674,14 @@ export default function HomePage() {
                   matched to the totality of who you are.
                 </p>
                 <p>
-                  Homeopathy is bought from a person, not a clinic — so Dr. NillMani
+                  Homeopathy is bought from a person, not a clinic — so Dr. Nill Mani
                   sees every patient personally. You can read the full background,
                   training, and credentials on the{" "}
                   <Link
                     href="/about-dr-nillmani"
                     className="text-accent underline underline-offset-2 hover:text-accent-hover"
                   >
-                    About Dr. NillMani
+                    About Dr. Nill Mani
                   </Link>{" "}
                   page.
                 </p>
@@ -708,9 +708,9 @@ export default function HomePage() {
               </dl>
 
               <p className="text-sm text-ink-tertiary">
-                Have a question for Dr. NillMani before booking? Email{" "}
+                Have a question for Dr. Nill Mani before booking? Email{" "}
                 <span className="font-medium text-ink-secondary">[Email]</span> —
-                Dr. NillMani personally replies within one business day.
+                Dr. Nill Mani personally replies within one business day.
               </p>
             </div>
           </div>
@@ -976,7 +976,7 @@ export default function HomePage() {
             </div>
 
             <p className="pt-2 text-sm text-ink-on-dark/70">
-              Still have questions? Email [Email] or call [Phone] — Dr. NillMani
+              Still have questions? Email [Email] or call [Phone] — Dr. Nill Mani
               personally replies within one business day.
             </p>
           </div>
@@ -1002,7 +1002,7 @@ export default function HomePage() {
               prescription medication without consulting the prescribing doctor.
             </p>
             <p>
-              Dr NillMani&apos;s Healthcare and Dr. NillMani do not practice medicine and
+              Dr. Neil&apos;s Healthcare and Dr. Nill Mani do not practice medicine and
               are not licensed medical practitioners in the State of Texas. Patient
               testimonials reflect individual experiences and are not a guarantee
               of results; outcomes vary. No specific health outcome is promised or

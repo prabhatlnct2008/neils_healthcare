@@ -96,7 +96,7 @@ export const Footer: React.FC = () => {
                   href="/about-dr-nillmani"
                   className="text-sm text-ink-secondary hover:text-ink-primary transition-colors"
                 >
-                  About Dr. NillMani
+                  About Dr. Nill Mani
                 </Link>
               </li>
               <li>
@@ -158,13 +158,13 @@ export const Footer: React.FC = () => {
         {/* Legal disclaimer */}
         <div className="bg-moss-soft/30 rounded-2xl p-6 mb-8 border border-border-soft">
           <p className="text-xs leading-relaxed text-ink-secondary">
-            <strong>Legal Disclaimer:</strong> The information on this website is provided for educational purposes only and is not intended as medical advice, diagnosis, or treatment. Homeopathic claims have not been evaluated by the Food and Drug Administration, and the theory of homeopathy is not accepted by most modern medical experts. Homeopathy is not intended to diagnose, treat, cure, or prevent any disease and is not a substitute for the care of a licensed medical doctor. Always consult your physician before making changes to any medical regimen or starting a new treatment, and never discontinue prescription medication without consulting the prescribing doctor. Dr NillMani's Healthcare and Dr. NillMani do not practice medicine and are not licensed medical practitioners in the State of Texas. Patient testimonials reflect individual experiences and are not a guarantee of results; outcomes vary. No specific health outcome is promised or guaranteed.
+            <strong>Legal Disclaimer:</strong> The information on this website is provided for educational purposes only and is not intended as medical advice, diagnosis, or treatment. Homeopathic claims have not been evaluated by the Food and Drug Administration, and the theory of homeopathy is not accepted by most modern medical experts. Homeopathy is not intended to diagnose, treat, cure, or prevent any disease and is not a substitute for the care of a licensed medical doctor. Always consult your physician before making changes to any medical regimen or starting a new treatment, and never discontinue prescription medication without consulting the prescribing doctor. Dr. Neil's Healthcare and Dr. Nill Mani do not practice medicine and are not licensed medical practitioners in the State of Texas. Patient testimonials reflect individual experiences and are not a guarantee of results; outcomes vary. No specific health outcome is promised or guaranteed.
           </p>
         </div>
 
         {/* Bottom bar */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-ink-tertiary pt-8 border-t border-border-soft">
-          <p>© 2026 Dr NillMani's Healthcare · Houston, TX</p>
+          <p>© 2026 Dr. Neil's Healthcare · Houston, TX</p>
           <p className="text-xs">
             Telehealth homeopathic consultations across Texas
           </p>

@@ -36,7 +36,7 @@ export const Header: React.FC = () => {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
             <div className="text-xl md:text-2xl font-display font-medium text-ink-primary group-hover:text-accent transition-colors">
-              Dr NillMani's <em className="italic font-display-italic text-accent">Healthcare</em>
+              Dr. Neil's <em className="italic font-display-italic text-accent">Healthcare</em>
             </div>
           </Link>
 
@@ -58,7 +58,7 @@ export const Header: React.FC = () => {
               href="/about-dr-nillmani"
               className="text-sm font-medium text-ink-secondary hover:text-ink-primary transition-colors"
             >
-              About Dr. NillMani
+              About Dr. Nill Mani
             </Link>
             <Link
               href="/pricing"

@@ -9,7 +9,7 @@ import { Eyebrow } from "@/components/primitives/Eyebrow";
 import { Button } from "@/components/primitives/Button";
 
 export const metadata: Metadata = {
-  title: "Homeopath in Katy | Dr NillMani's Healthcare",
+  title: "Homeopath in Katy | Dr. Neil's Healthcare",
   description:
     "Classical homeopathy serving Katy, TX. Family-focused care for children and adults. Telehealth and Houston consultations. Serving Cinco Ranch, Cross Creek.",
 };
@@ -114,7 +114,7 @@ export default function KatyPage() {
                   Telehealth from Katy
                 </h3>
                 <p className="text-base text-ink-secondary leading-relaxed mb-4">
-                  All consultations are conducted via secure, HIPAA-compliant video. No need to drive to Houston — meet with Dr. NillMani from your home in Cinco Ranch, Cross Creek, Old Katy, or anywhere in Katy.
+                  All consultations are conducted via secure, HIPAA-compliant video. No need to drive to Houston — meet with Dr. Nill Mani from your home in Cinco Ranch, Cross Creek, Old Katy, or anywhere in Katy.
                 </p>
                 <p className="text-sm text-ink-tertiary">
                   30-minute consultation · $150
@@ -127,7 +127,7 @@ export default function KatyPage() {
                   Family consultations
                 </h3>
                 <p className="text-base text-ink-secondary leading-relaxed mb-4">
-                  Pediatric consultations include time with parents and child together. Dr. NillMani sees the whole family picture — genetics, stress patterns, lifestyle — to find the right remedy.
+                  Pediatric consultations include time with parents and child together. Dr. Nill Mani sees the whole family picture — genetics, stress patterns, lifestyle — to find the right remedy.
                 </p>
                 <p className="text-sm text-ink-tertiary">
                   Same pricing: $150 for 30 minutes
@@ -169,7 +169,7 @@ export default function KatyPage() {
             </div>
 
             <p className="text-sm text-ink-on-dark/70 pt-4">
-              Questions? Email [Email] — Dr. NillMani replies within one business day
+              Questions? Email [Email] — Dr. Nill Mani replies within one business day
             </p>
           </div>
         </div>
