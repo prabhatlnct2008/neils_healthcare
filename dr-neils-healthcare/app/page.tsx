@@ -199,9 +199,9 @@ export default function HomePage() {
                 </Pill>
 
                 <DisplayHeading as="h1">
-                  Honest homeopathy.
+                  Homeopathy — Medicine that <em>listens.</em>
                   <br />
-                  Personally <em>matched</em> to you.
+                  Personalized medicine.
                 </DisplayHeading>
 
                 <p className="max-w-2xl text-lg leading-relaxed text-ink-secondary md:text-xl">
