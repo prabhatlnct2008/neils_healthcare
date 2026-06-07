@@ -16,9 +16,9 @@ import { Eyebrow } from "@/components/primitives/Eyebrow";
 import { Button } from "@/components/primitives/Button";
 
 export const metadata: Metadata = {
-  title: "Book Appointment | Dr Neil's Healthcare | Houston Homeopathy",
+  title: "Book Appointment | Dr NillMani's Healthcare | Houston Homeopathy",
   description:
-    "Book your homeopathic consultation online. In-person or telehealth across Texas. HIPAA-compliant booking. $150 for 60 minutes.",
+    "Book your homeopathic consultation online. In-person or telehealth across Texas. HIPAA-compliant booking. $150 for 30 minutes.",
 };
 
 export default function BookPage() {
@@ -31,11 +31,11 @@ export default function BookPage() {
             <Eyebrow className="mx-auto">Book your consultation</Eyebrow>
 
             <DisplayHeading as="h1">
-              Book your consultation<br />with <em>Dr. Neil</em>
+              Book your consultation<br />with <em>Dr. NillMani</em>
             </DisplayHeading>
 
             <p className="text-xl text-ink-secondary leading-relaxed">
-              60 minutes. $150. A personalized remedy plan delivered within 48 hours.
+              30 minutes. $150. A personalized remedy plan delivered within 48 hours.
             </p>
 
             {/* Trust Strip */}
@@ -177,7 +177,7 @@ export default function BookPage() {
                 <li className="flex items-start gap-3">
                   <span className="text-accent text-xl flex-shrink-0">✓</span>
                   <div>
-                    <strong className="text-ink-primary">Don't stress about what to say</strong> — There are no wrong answers. Dr. Neil will guide the conversation and ask what's needed.
+                    <strong className="text-ink-primary">Don't stress about what to say</strong> — There are no wrong answers. Dr. NillMani will guide the conversation and ask what's needed.
                   </div>
                 </li>
               </ul>
@@ -222,7 +222,7 @@ export default function BookPage() {
             </div>
 
             <p className="text-sm text-ink-tertiary pt-4">
-              Or email [Email] — Dr. Neil personally replies within one business day
+              Or email [Email] — Dr. NillMani personally replies within one business day
             </p>
           </div>
         </div>

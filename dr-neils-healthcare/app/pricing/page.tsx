@@ -21,7 +21,7 @@ import { pricingTiers, paymentInfo } from "@/content/pricing";
 import { getFAQsByCategory } from "@/content/faqs";
 
 export const metadata: Metadata = {
-  title: "Pricing | $150 Homeopathic Consultation | Dr Neil's Healthcare",
+  title: "Pricing | $150 Homeopathic Consultation | Dr NillMani's Healthcare",
   description:
     "Transparent pricing for homeopathic care. Initial consultation $150, follow-ups $85. HSA/FSA eligible. No hidden fees. Book online.",
 };
@@ -132,7 +132,7 @@ export default function PricingPage() {
                 <li className="flex items-start gap-3">
                   <span className="text-accent flex-shrink-0 mt-1">•</span>
                   <div>
-                    <strong className="text-ink-primary">60-minute consultation</strong> (in-person or video) with Dr. Neil personally
+                    <strong className="text-ink-primary">30-minute consultation</strong> (in-person or video) with Dr. NillMani personally
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
@@ -218,7 +218,7 @@ export default function PricingPage() {
                 Most homeopaths in the U.S. charge <strong>$200–$400</strong> for a new-patient visit. Some charge <strong>$700</strong>.
               </p>
               <p className="text-base text-ink-secondary leading-relaxed">
-                Dr. Neil charges <strong className="text-accent">$150</strong> because we believe individualized care should be accessible to working families, not just the wealthy. Our remedies are also priced honestly — typically $15–$45 — and they often last for months.
+                Dr. NillMani charges <strong className="text-accent">$150</strong> because we believe individualized care should be accessible to working families, not just the wealthy. Our remedies are also priced honestly — typically $15–$45 — and they often last for months.
               </p>
             </div>
 
@@ -299,7 +299,7 @@ export default function PricingPage() {
             </DisplayHeading>
 
             <p className="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-              $150 for 60 minutes. A written remedy plan in 48 hours. Honest answers about
+              $150 for 30 minutes. A written remedy plan in 48 hours. Honest answers about
               what homeopathy can and can't do.
             </p>
 

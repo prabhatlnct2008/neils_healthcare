@@ -85,6 +85,24 @@ export const conditions: Condition[] = [
       "Homeopathic care for children: ear infections, eczema, anxiety, behavioral concerns, recurring colds. Safe, gentle, effective. Parents and kids seen together.",
     icon: "baby",
   },
+  {
+    id: "hairfall",
+    title: "Hair fall & thinning",
+    subtitle: "Stress, hormones, nutrition — the right remedy depends on why.",
+    slug: "/conditions/hairfall",
+    description:
+      "Homeopathic treatment for hair fall, thinning, and scalp conditions. Matched to the underlying pattern — stress, hormonal, nutritional, post-illness.",
+    icon: "scissors",
+  },
+  {
+    id: "arthritis",
+    title: "Arthritis & joint pain",
+    subtitle: "Rheumatoid, osteoarthritis, gout — different remedies for different joint patterns.",
+    slug: "/conditions/arthritis",
+    description:
+      "Homeopathic treatment for arthritis and chronic joint pain. Personalized to the specific joint pattern, triggers, and what makes symptoms better or worse.",
+    icon: "bone",
+  },
 ];
 
 /**

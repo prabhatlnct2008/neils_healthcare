@@ -9,7 +9,7 @@ import { Eyebrow } from "@/components/primitives/Eyebrow";
 import { Button } from "@/components/primitives/Button";
 
 export const metadata: Metadata = {
-  title: "Homeopathy for Anxiety & Stress | Dr Neil's Healthcare",
+  title: "Homeopathy for Anxiety & Stress | Dr NillMani's Healthcare",
   description:
     "Homeopathic treatment for anxiety, panic attacks, and chronic stress. Personalized remedies matched to your unique pattern. Works alongside conventional care.",
 };
@@ -118,7 +118,7 @@ export default function AnxietyPage() {
             </DisplayHeading>
 
             <p className="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-              $150 for 60 minutes. A personalized remedy matched to your anxiety pattern. Works alongside therapy and medication.
+              $150 for 30 minutes. A personalized remedy matched to your anxiety pattern. Works alongside therapy and medication.
             </p>
 
             <div className="pt-4 flex flex-col sm:flex-row gap-4 justify-center">

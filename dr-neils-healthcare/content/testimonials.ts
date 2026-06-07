@@ -27,7 +27,7 @@ export const testimonials: Testimonial[] = [
   {
     id: "marcus-anxiety",
     quote:
-      "I'd been on anxiety medication for eight years and it never quite worked. Six months of homeopathy with Dr. Neil and I'm sleeping again. I still see my psychiatrist — but for the first time, we're talking about stepping down medication, not adding more.",
+      "I'd been on anxiety medication for eight years and it never quite worked. Six months of homeopathy with Dr. NillMani and I'm sleeping again. I still see my psychiatrist — but for the first time, we're talking about stepping down medication, not adding more.",
     author: "Marcus T.",
     location: "Houston Heights, TX",
     condition: "Anxiety",
@@ -36,7 +36,7 @@ export const testimonials: Testimonial[] = [
   {
     id: "jennifer-menopause",
     quote:
-      "I came to Dr. Neil for perimenopause symptoms that my OB-GYN said were 'just normal.' I didn't want hormones, I wanted to feel like myself. Three months in, the hot flashes are 80% better and my sleep is back. I send everyone here.",
+      "I came to Dr. NillMani for perimenopause symptoms that my OB-GYN said were 'just normal.' I didn't want hormones, I wanted to feel like myself. Three months in, the hot flashes are 80% better and my sleep is back. I send everyone here.",
     author: "Jennifer M.",
     location: "Katy, TX",
     condition: "Perimenopause",

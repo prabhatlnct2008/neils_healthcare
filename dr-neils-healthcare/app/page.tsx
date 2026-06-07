@@ -2,16 +2,16 @@
 // PRIMARY KEYWORD: homeopathy Houston
 // INTENT: Skeptical Houston-area visitor researching homeopathy; build trust, then convert
 // TARGET READER: 30–55, frustrated with rushed conventional care, researching for weeks
-// TOP 3 TRUST SIGNALS: honest about controversy, $150 transparent pricing, real listening (60 min)
+// TOP 3 TRUST SIGNALS: honest about controversy, $150 transparent pricing, real listening (30 min)
 //
 // SECTIONS (in order, per landing copy v3):
 //  1. Hero (8 col) + Trust Stat (4 col)
 //  2. Trust Bar — 4-up benefit chips (full width)
 //  3. What Is Homeopathy (8 col copy + 4 col visual)
-//  4. Bento Grid (signature) — feature, $150, process, 60-min, map, testimonial, conditions, botanical
+//  4. Bento Grid (signature) — feature, $150, process, 30-min, map, testimonial, conditions, botanical
 //  5. Conditions tile grid (8 conditions)
 //  6. Why Houston Chooses Us (4 differentiators)
-//  7. Meet Dr. Neil (bio + photo)
+//  7. Meet Dr. NillMani (bio + photo)
 //  8. What's Included in your $150 consultation
 //  9. How It Works (full 5-step)
 // 10. Testimonials (3 stories)
@@ -20,7 +20,7 @@
 // 13. Final CTA
 // 14. Full legal disclaimer (prominent callout above footer)
 //
-// INTERNAL LINKS: /book, /how-it-works, /pricing, /faq, /about-dr-neil, condition pages
+// INTERNAL LINKS: /book, /how-it-works, /pricing, /faq, /about-dr-nillmani, condition pages
 // EXTERNAL LINK: NCCIH (NIH) homeopathy overview
 // SCHEMA: FAQPage
 
@@ -94,7 +94,7 @@ const trustBar = [
 
 const processSteps = [
   { num: "01", label: "Book your consult", meta: "10 min" },
-  { num: "02", label: "60-minute deep dive", meta: "secure video" },
+  { num: "02", label: "30-minute deep dive", meta: "secure video" },
   { num: "03", label: "Personalized plan", meta: "48 hr turnaround" },
   { num: "04", label: "Remedy at your door", meta: "5–7 days" },
 ];
@@ -108,6 +108,8 @@ const conditionPills = [
   "IBS & reflux",
   "PMS & menopause",
   "Children's health",
+  "Hair fall",
+  "Arthritis",
   "Autoimmune",
   "Recurring infections",
   "Fatigue",
@@ -117,7 +119,7 @@ const conditionPills = [
 const differentiators = [
   {
     title: "Fair pricing for real time and real expertise.",
-    body: "Most homeopaths in the U.S. charge $200–$400 for a new-patient visit. Some charge $700. Dr. Neil charges $150 because individualized care should be accessible to working families, not just the wealthy. Remedies are priced honestly too — typically $15–$45 — and often last for months. HSA and FSA eligible.",
+    body: "Most homeopaths in the U.S. charge $200–$400 for a new-patient visit. Some charge $700. Dr. NillMani charges $150 because individualized care should be accessible to working families, not just the wealthy. Remedies are priced honestly too — typically $15–$45 — and often last for months. HSA and FSA eligible.",
   },
   {
     title: "Classical homeopathy, the way it should be practiced.",
@@ -125,7 +127,7 @@ const differentiators = [
   },
   {
     title: "You actually get listened to.",
-    body: "Sixty minutes. No interruptions. No clock-watching. Patients tell us the consultation itself is part of the healing.",
+    body: "Thirty minutes. No interruptions. No clock-watching. Patients tell us the consultation itself is part of the healing.",
   },
   {
     title: "Houston-based, accessible everywhere in Texas.",
@@ -134,7 +136,7 @@ const differentiators = [
 ];
 
 const included = [
-  "60-minute consultation via secure video with Dr. Neil personally",
+  "30-minute consultation via secure video with Dr. NillMani personally",
   "Pre-consultation intake form — completed online so we use every minute on you, not paperwork",
   "Detailed written remedy plan delivered within 48 hours",
   "Dosing instructions in plain English — what to take, when, and what to expect",
@@ -157,13 +159,13 @@ const journeySteps = [
   },
   {
     num: "02",
-    title: "Your 60-minute consultation",
-    body: "Over secure, HIPAA-compliant video. Dr. Neil will go deep — your current concerns, your medical history, your sleep, your stress, what you crave, what you can't stand. There are no wrong answers. Most patients tell us this is the first time a provider has actually listened.",
+    title: "Your 30-minute consultation",
+    body: "Over secure, HIPAA-compliant video. Dr. NillMani will go deep — your current concerns, your medical history, your sleep, your stress, what you crave, what you can't stand. There are no wrong answers. Most patients tell us this is the first time a provider has actually listened.",
   },
   {
     num: "03",
     title: "Your personalized remedy plan",
-    body: "Within 48 hours, Dr. Neil reviews your case and matches you to the remedy — or combination of remedies — that fits your unique pattern. You'll receive a written plan with dosing instructions, what to expect, and what to watch for.",
+    body: "Within 48 hours, Dr. NillMani reviews your case and matches you to the remedy — or combination of remedies — that fits your unique pattern. You'll receive a written plan with dosing instructions, what to expect, and what to watch for.",
   },
   {
     num: "04",
@@ -173,7 +175,7 @@ const journeySteps = [
   {
     num: "05",
     title: "Follow-up at 4–6 weeks",
-    body: "Healing isn't a one-shot deal. We check in to assess what's shifted, what hasn't, and whether we need to adjust. Follow-up consultations are 30 minutes and $85.",
+    body: "Healing isn't a one-shot deal. We check in to assess what's shifted, what hasn't, and whether we need to adjust. Follow-up consultations are 15 minutes and $85.",
   },
 ];
 
@@ -203,7 +205,7 @@ export default function HomePage() {
                 </DisplayHeading>
 
                 <p className="max-w-2xl text-lg leading-relaxed text-ink-secondary md:text-xl">
-                  A 60-minute consultation with Dr. Neil, a remedy plan made for
+                  A 30-minute consultation with Dr. NillMani, a remedy plan made for
                   your body, and natural medicine delivered to your door within 7
                   days.
                 </p>
@@ -319,7 +321,7 @@ export default function HomePage() {
                   you've tried isn't the remedies. It's the{" "}
                   <strong className="text-ink-primary">consultation</strong>. A
                   conventional 12-minute appointment cannot capture who you are. A
-                  homeopath's appointment can. Dr. Neil spends an hour asking about
+                  homeopath's appointment can. Dr. NillMani spends a half hour asking about
                   your sleep, your appetite, your moods, your stress, what makes
                   your symptoms better, what makes them worse. The right remedy
                   isn't the one that matches your <em>diagnosis</em> — it's the one
@@ -399,7 +401,7 @@ export default function HomePage() {
           <div className="mb-10">
             <Eyebrow className="mb-4">The system</Eyebrow>
             <DisplayHeading as="h2">
-              An hour of <em>real listening</em>. A remedy made for you.
+              A half hour of <em>real listening</em>. A remedy made for you.
             </DisplayHeading>
           </div>
 
@@ -429,7 +431,7 @@ export default function HomePage() {
                   $150
                 </div>
                 <p className="text-lg text-ink-primary">
-                  For a full hour with Dr. Neil
+                  For a half hour with Dr. NillMani
                 </p>
                 <p className="pt-1 text-sm italic text-ink-tertiary">
                   Most US homeopaths charge $200–$700
@@ -486,12 +488,12 @@ export default function HomePage() {
               </div>
             </BentoCard>
 
-            {/* Card 5 — 60 MIN STAT (4 × 1) */}
+            {/* Card 5 — 30 MIN STAT (4 × 1) */}
             <BentoCard colSpan={4} rowSpan={1} variant="stat">
               <div className="space-y-1">
                 <Eyebrow>Every session</Eyebrow>
                 <div className="font-display text-5xl font-medium tracking-tight text-ink-primary">
-                  60 min
+                  30 min
                 </div>
                 <p className="text-sm text-ink-secondary">
                   No clock-watching. No rushed prescription.
@@ -527,7 +529,7 @@ export default function HomePage() {
               <div className="space-y-3">
                 <Eyebrow>What we work with most</Eyebrow>
                 <h3 className="font-display text-xl font-normal tracking-tight">
-                  Twelve conditions, one approach:{" "}
+                  Fourteen conditions, one approach:{" "}
                   <em className="font-display-italic italic text-accent">
                     match the person, not the diagnosis.
                   </em>
@@ -611,7 +613,7 @@ export default function HomePage() {
             <Eyebrow className="mb-4">What makes us different</Eyebrow>
             <DisplayHeading as="h2">
               Why patients in Houston, Sugar Land &amp; Katy{" "}
-              <em>choose Dr. Neil</em>.
+              <em>choose Dr. NillMani</em>.
             </DisplayHeading>
           </div>
 
@@ -636,7 +638,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 7. Meet Dr. Neil */}
+      {/* 7. Meet Dr. NillMani */}
       <section className="w-full bg-bg-page py-16 md:py-20">
         <div className="container mx-auto max-w-7xl px-5 md:px-8">
           <div className="grid grid-cols-1 items-start gap-12 lg:grid-cols-12">
@@ -646,7 +648,7 @@ export default function HomePage() {
                 <div className="space-y-3 text-center">
                   <div className="text-6xl">👤</div>
                   <p className="text-sm text-ink-tertiary">
-                    Real photo of Dr. Neil
+                    Real photo of Dr. NillMani
                     <br />
                     to be added here
                   </p>
@@ -658,27 +660,28 @@ export default function HomePage() {
             <div className="space-y-6 lg:col-span-8">
               <Eyebrow>Meet your homeopath</Eyebrow>
               <DisplayHeading as="h2">
-                Dr. Neil — <em>Classical Homeopath</em> in Houston
+                Dr. NillMani — <em>Classical Homeopath</em> in Houston
               </DisplayHeading>
 
               <div className="space-y-4 text-base leading-relaxed text-ink-secondary">
                 <p>
-                  Dr. Neil is a classical homeopath serving the greater Houston
-                  area, holding an Indian homeopathy degree — a Bachelor of
-                  Homeopathic Medicine &amp; Surgery (BHMS). The approach is
-                  unhurried, evidence-informed, and deeply individualized: one
-                  carefully chosen remedy at a time, matched to the totality of who
-                  you are.
+                  Dr. NillMani is a classical homeopath serving the greater Houston
+                  area, with a multi-disciplinary foundation: a Bachelor of
+                  Electropathy Medicine &amp; Surgery (BEMS), a PhD in Biomedical
+                  Engineering from IIT, and Stanford certification in herbal
+                  medicine. The approach is unhurried, evidence-informed, and
+                  deeply individualized: one carefully chosen remedy at a time,
+                  matched to the totality of who you are.
                 </p>
                 <p>
-                  Homeopathy is bought from a person, not a clinic — so Dr. Neil
+                  Homeopathy is bought from a person, not a clinic — so Dr. NillMani
                   sees every patient personally. You can read the full background,
                   training, and credentials on the{" "}
                   <Link
-                    href="/about-dr-neil"
+                    href="/about-dr-nillmani"
                     className="text-accent underline underline-offset-2 hover:text-accent-hover"
                   >
-                    About Dr. Neil
+                    About Dr. NillMani
                   </Link>{" "}
                   page.
                 </p>
@@ -687,7 +690,7 @@ export default function HomePage() {
               {/* Quick facts */}
               <dl className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                 {[
-                  ["Training", "Indian homeopathy degree (BHMS)"],
+                  ["Training", "Stanford · BEMS · PhD (IIT)"],
                   ["Approach", "Classical — one remedy at a time"],
                   ["Consultations", "Secure telehealth across Texas"],
                   ["Practice type", "Solo practitioner"],
@@ -705,9 +708,9 @@ export default function HomePage() {
               </dl>
 
               <p className="text-sm text-ink-tertiary">
-                Have a question for Dr. Neil before booking? Email{" "}
+                Have a question for Dr. NillMani before booking? Email{" "}
                 <span className="font-medium text-ink-secondary">[Email]</span> —
-                Dr. Neil personally replies within one business day.
+                Dr. NillMani personally replies within one business day.
               </p>
             </div>
           </div>
@@ -952,7 +955,7 @@ export default function HomePage() {
             <Eyebrow className="text-ink-on-dark/70">Ready when you are</Eyebrow>
 
             <h2 className="font-display text-3xl font-normal leading-[1.05] tracking-tight md:text-5xl">
-              Sixty minutes.
+              Thirty minutes.
               <br />
               One hundred fifty dollars.
               <br />
@@ -973,7 +976,7 @@ export default function HomePage() {
             </div>
 
             <p className="pt-2 text-sm text-ink-on-dark/70">
-              Still have questions? Email [Email] or call [Phone] — Dr. Neil
+              Still have questions? Email [Email] or call [Phone] — Dr. NillMani
               personally replies within one business day.
             </p>
           </div>
@@ -999,7 +1002,7 @@ export default function HomePage() {
               prescription medication without consulting the prescribing doctor.
             </p>
             <p>
-              Dr Neil&apos;s Healthcare and Dr. Neil do not practice medicine and
+              Dr NillMani&apos;s Healthcare and Dr. NillMani do not practice medicine and
               are not licensed medical practitioners in the State of Texas. Patient
               testimonials reflect individual experiences and are not a guarantee
               of results; outcomes vary. No specific health outcome is promised or

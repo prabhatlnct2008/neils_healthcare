@@ -9,7 +9,7 @@ import { Eyebrow } from "@/components/primitives/Eyebrow";
 import { Button } from "@/components/primitives/Button";
 
 export const metadata: Metadata = {
-  title: "Homeopath in Katy | Dr Neil's Healthcare",
+  title: "Homeopath in Katy | Dr NillMani's Healthcare",
   description:
     "Classical homeopathy serving Katy, TX. Family-focused care for children and adults. Telehealth and Houston consultations. Serving Cinco Ranch, Cross Creek.",
 };
@@ -28,7 +28,7 @@ export default function KatyPage() {
             </DisplayHeading>
 
             <p className="text-xl text-ink-secondary leading-relaxed">
-              Telehealth consultations for all of Katy — Cinco Ranch, Cross Creek Ranch, Old Katy, and surrounding areas. Gentle, safe care for kids and adults. $150 for 60 minutes.
+              Telehealth consultations for all of Katy — Cinco Ranch, Cross Creek Ranch, Old Katy, and surrounding areas. Gentle, safe care for kids and adults. $150 for 30 minutes.
             </p>
 
             <div className="pt-4">
@@ -114,10 +114,10 @@ export default function KatyPage() {
                   Telehealth from Katy
                 </h3>
                 <p className="text-base text-ink-secondary leading-relaxed mb-4">
-                  All consultations are conducted via secure, HIPAA-compliant video. No need to drive to Houston — meet with Dr. Neil from your home in Cinco Ranch, Cross Creek, Old Katy, or anywhere in Katy.
+                  All consultations are conducted via secure, HIPAA-compliant video. No need to drive to Houston — meet with Dr. NillMani from your home in Cinco Ranch, Cross Creek, Old Katy, or anywhere in Katy.
                 </p>
                 <p className="text-sm text-ink-tertiary">
-                  60-minute consultation · $150
+                  30-minute consultation · $150
                 </p>
               </div>
 
@@ -127,10 +127,10 @@ export default function KatyPage() {
                   Family consultations
                 </h3>
                 <p className="text-base text-ink-secondary leading-relaxed mb-4">
-                  Pediatric consultations include time with parents and child together. Dr. Neil sees the whole family picture — genetics, stress patterns, lifestyle — to find the right remedy.
+                  Pediatric consultations include time with parents and child together. Dr. NillMani sees the whole family picture — genetics, stress patterns, lifestyle — to find the right remedy.
                 </p>
                 <p className="text-sm text-ink-tertiary">
-                  Same pricing: $150 for 60 minutes
+                  Same pricing: $150 for 30 minutes
                 </p>
               </div>
             </div>
@@ -156,7 +156,7 @@ export default function KatyPage() {
             </DisplayHeading>
 
             <p className="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-              Telehealth consultations across Katy. Gentle, safe care for kids and adults. Classical homeopathy. $150 for 60 minutes.
+              Telehealth consultations across Katy. Gentle, safe care for kids and adults. Classical homeopathy. $150 for 30 minutes.
             </p>
 
             <div className="pt-4 flex flex-col sm:flex-row gap-4 justify-center">
@@ -169,7 +169,7 @@ export default function KatyPage() {
             </div>
 
             <p className="text-sm text-ink-on-dark/70 pt-4">
-              Questions? Email [Email] — Dr. Neil replies within one business day
+              Questions? Email [Email] — Dr. NillMani replies within one business day
             </p>
           </div>
         </div>

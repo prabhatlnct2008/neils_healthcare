@@ -1,4 +1,4 @@
-// PAGE: /about-dr-neil
+// PAGE: /about-dr-nillmani
 // PRIMARY KEYWORD: classical homeopath Houston
 // INTENT: Visitor wants to know practitioner credentials and approach
 //
@@ -19,9 +19,9 @@ import { BentoCard } from "@/components/bento/BentoCard";
 import { testimonials } from "@/content/testimonials";
 
 export const metadata: Metadata = {
-  title: "About Dr. Neil | Classical Homeopath in Houston, TX",
+  title: "About Dr. NillMani | Classical Homeopath in Houston, TX",
   description:
-    "Meet Dr. Neil, a classical homeopath serving Houston with an Indian homeopathy degree (BHMS). Personalized, evidence-informed care for chronic conditions.",
+    "Meet Dr. NillMani, classical homeopath in Houston. Stanford-trained in herbal medicine, with BEMS and a PhD in biomedical engineering from IIT.",
 };
 
 export default function AboutPage() {
@@ -36,13 +36,13 @@ export default function AboutPage() {
               <Eyebrow>Meet your homeopath</Eyebrow>
 
               <DisplayHeading as="h1">
-                Dr. Neil<br />
+                Dr. NillMani<br />
                 <em>Classical Homeopath</em><br />
                 in Houston
               </DisplayHeading>
 
               <p className="text-xl text-ink-secondary leading-relaxed">
-                Trained in classical homeopathy with an Indian homeopathy degree (BHMS), Dr. Neil brings unhurried, individualized care to Houston's homeopathy community.
+                Trained in classical homeopathy and certified in herbal medicine at Stanford, with a Bachelor of Electropathy Medicine and Surgery (BEMS) and a PhD in Biomedical Engineering from IIT, Dr. NillMani brings unhurried, individualized care to Houston's homeopathy community.
               </p>
 
               <div className="pt-4">
@@ -58,10 +58,10 @@ export default function AboutPage() {
                 <div className="text-center space-y-4">
                   <div className="text-6xl">👤</div>
                   <p className="text-sm text-ink-tertiary">
-                    Real photo of Dr. Neil<br />to be added here
+                    Real photo of Dr. NillMani<br />to be added here
                   </p>
                   <p className="text-xs text-ink-tertiary max-w-xs">
-                    Environmental portrait recommended: Dr. Neil in consulting space, natural lighting
+                    Environmental portrait recommended: Dr. NillMani in consulting space, natural lighting
                   </p>
                 </div>
               </div>
@@ -79,17 +79,17 @@ export default function AboutPage() {
               <div className="h-full flex flex-col justify-center space-y-4">
                 <Eyebrow>Credentials & training</Eyebrow>
                 <h2 className="font-display text-2xl font-normal text-ink-primary">
-                  Indian Homeopathy Degree (BHMS)
+                  Stanford herbal medicine · BEMS · PhD (IIT)
                 </h2>
                 <div className="space-y-3 text-base text-ink-secondary">
                   <p>
                     <strong className="text-ink-primary">[CUSTOMIZE THIS SECTION]</strong>
                   </p>
                   <p>
-                    Dr. Neil holds a Bachelor of Homeopathic Medicine and Surgery (BHMS) degree, completing [X] years of training in classical homeopathy at [Institution Name].
+                    Dr. NillMani holds a Bachelor of Electropathy Medicine and Surgery (BEMS) and a PhD in Biomedical Engineering from IIT, and is Stanford-certified in herbal medicine — a multi-disciplinary foundation applied to classical homeopathy practice.
                   </p>
                   <p>
-                    With [X] years in clinical practice, Dr. Neil specializes in [top 2-3 areas: e.g., women's hormonal health, pediatric care, chronic skin conditions].
+                    With [X] years in clinical practice, Dr. NillMani specializes in [top 2-3 areas: e.g., women's hormonal health, pediatric care, chronic skin conditions].
                   </p>
                   <p className="text-sm text-ink-tertiary pt-2">
                     ⚠️ <strong>Legal Note:</strong> Get Texas attorney review of credentials language before launch.
@@ -169,7 +169,7 @@ export default function AboutPage() {
 
             <div className="prose prose-lg max-w-none space-y-6 text-ink-secondary leading-relaxed">
               <p className="text-xl text-ink-primary">
-                Dr. Neil practices <strong>classical homeopathy</strong> — a centuries-old approach that differs fundamentally from how most modern medicine works.
+                Dr. NillMani practices <strong>classical homeopathy</strong> — a centuries-old approach that differs fundamentally from how most modern medicine works.
               </p>
 
               <p>
@@ -177,19 +177,19 @@ export default function AboutPage() {
               </p>
 
               <p>
-                This is why the consultation takes 60 minutes. Dr. Neil needs to understand not just your symptoms, but <em>you</em>: your sleep patterns, your stress triggers, what you crave, what makes you feel better or worse, your childhood illnesses, your family history. Classical homeopathy works by matching the remedy to the totality of who you are.
+                This is why the consultation takes 30 minutes. Dr. NillMani needs to understand not just your symptoms, but <em>you</em>: your sleep patterns, your stress triggers, what you crave, what makes you feel better or worse, your childhood illnesses, your family history. Classical homeopathy works by matching the remedy to the totality of who you are.
               </p>
 
               <p>
-                <strong>One remedy at a time.</strong> Dr. Neil doesn't prescribe 14-supplement protocols or layered combinations. Classical homeopathy means selecting the single best-matched remedy, giving it time to act, and observing what shifts. If the remedy is correct, your body knows what to do with it. If it's not, we adjust. This careful, individualized approach is how homeopathy has been practiced for 200 years.
+                <strong>One remedy at a time.</strong> Dr. NillMani doesn't prescribe 14-supplement protocols or layered combinations. Classical homeopathy means selecting the single best-matched remedy, giving it time to act, and observing what shifts. If the remedy is correct, your body knows what to do with it. If it's not, we adjust. This careful, individualized approach is how homeopathy has been practiced for 200 years.
               </p>
 
               <p>
-                <strong>Honesty over overselling.</strong> Dr. Neil will tell you when homeopathy isn't the right fit. Some conditions need conventional care. Some need a specialist. Some need emergency intervention. Homeopathy works best for chronic, recurring concerns where your body needs support recalibrating, not suppression. If you need labs, imaging, or a prescription, Dr. Neil will refer you to the right provider.
+                <strong>Honesty over overselling.</strong> Dr. NillMani will tell you when homeopathy isn't the right fit. Some conditions need conventional care. Some need a specialist. Some need emergency intervention. Homeopathy works best for chronic, recurring concerns where your body needs support recalibrating, not suppression. If you need labs, imaging, or a prescription, Dr. NillMani will refer you to the right provider.
               </p>
 
               <p>
-                <strong>Working alongside your other doctors.</strong> Dr. Neil doesn't replace your primary care physician, your psychiatrist, or your specialist. Homeopathy works <em>alongside</em> conventional care. Many patients continue their prescriptions while working with homeopathy. There are no known drug interactions with homeopathic remedies, and Dr. Neil will never tell you to stop a medication without consulting your prescriber.
+                <strong>Working alongside your other doctors.</strong> Dr. NillMani doesn't replace your primary care physician, your psychiatrist, or your specialist. Homeopathy works <em>alongside</em> conventional care. Many patients continue their prescriptions while working with homeopathy. There are no known drug interactions with homeopathic remedies, and Dr. NillMani will never tell you to stop a medication without consulting your prescriber.
               </p>
             </div>
           </div>
@@ -241,17 +241,17 @@ export default function AboutPage() {
         <div className="container mx-auto max-w-7xl px-5 md:px-8">
           <div className="max-w-3xl mx-auto bg-accent-soft border border-accent/20 rounded-3xl p-12 text-center space-y-6">
             <DisplayHeading as="h2">
-              Have a question for <em>Dr. Neil</em><br />before booking?
+              Have a question for <em>Dr. NillMani</em><br />before booking?
             </DisplayHeading>
 
             <p className="text-lg text-ink-secondary leading-relaxed">
-              Not every situation is right for homeopathy, and that's okay. If you're unsure whether your concern is a good fit, email Dr. Neil directly.
+              Not every situation is right for homeopathy, and that's okay. If you're unsure whether your concern is a good fit, email Dr. NillMani directly.
             </p>
 
             <div className="space-y-2 text-base text-ink-secondary">
               <p>✉️ <strong>[Email]</strong></p>
               <p className="text-sm text-ink-tertiary">
-                Dr. Neil personally replies within one business day
+                Dr. NillMani personally replies within one business day
               </p>
             </div>
 

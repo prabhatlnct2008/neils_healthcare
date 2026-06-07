@@ -24,7 +24,7 @@ import { testimonials } from "@/content/testimonials";
 export const metadata: Metadata = {
   title: "Homeopathy for Allergies in Houston | Cedar Fever, Mold, Oak Pollen",
   description:
-    "Personalized homeopathic relief for Houston's worst allergy seasons. Cedar fever, mold, oak pollen, ragweed. 60-minute consultation $150. Book online.",
+    "Personalized homeopathic relief for Houston's worst allergy seasons. Cedar fever, mold, oak pollen, ragweed. 30-minute consultation $150. Book online.",
 };
 
 export default function AllergiesPage() {
@@ -179,7 +179,7 @@ export default function AllergiesPage() {
                   1. We match the remedy to your pattern, not your diagnosis
                 </h3>
                 <p className="text-base text-ink-secondary leading-relaxed">
-                  Two people with "cedar fever" can have completely different symptom patterns. One person sneezes violently, gets itchy eyes, and feels worse indoors. Another gets sinus pressure, a thick post-nasal drip, and feels worse in the morning. Different patterns = different remedies. This is why the consultation takes a full hour.
+                  Two people with "cedar fever" can have completely different symptom patterns. One person sneezes violently, gets itchy eyes, and feels worse indoors. Another gets sinus pressure, a thick post-nasal drip, and feels worse in the morning. Different patterns = different remedies. This is why the consultation takes a half hour.
                 </p>
               </div>
 
@@ -352,7 +352,7 @@ export default function AllergiesPage() {
             </DisplayHeading>
 
             <p className="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-              $150 for 60 minutes. A personalized remedy plan matched to your unique allergy pattern. Relief measured in weeks, not hours.
+              $150 for 30 minutes. A personalized remedy plan matched to your unique allergy pattern. Relief measured in weeks, not hours.
             </p>
 
             <div className="pt-4 flex flex-col sm:flex-row gap-4 justify-center">
@@ -365,7 +365,7 @@ export default function AllergiesPage() {
             </div>
 
             <p className="text-sm text-ink-on-dark/70 pt-4">
-              Questions first? Email [Email] — Dr. Neil replies within one business day
+              Questions first? Email [Email] — Dr. NillMani replies within one business day
             </p>
           </div>
         </div>
