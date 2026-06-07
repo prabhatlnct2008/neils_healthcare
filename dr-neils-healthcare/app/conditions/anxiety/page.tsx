@@ -9,7 +9,7 @@ import { Eyebrow } from "@/components/primitives/Eyebrow";
 import { Button } from "@/components/primitives/Button";
 
 export const metadata: Metadata = {
-  title: "Homeopathy for Anxiety & Stress | Dr Neil's Healthcare",
+  title: "Homeopathy for Anxiety & Stress | Dr NillMani's Healthcare",
   description:
     "Homeopathic treatment for anxiety, panic attacks, and chronic stress. Personalized remedies matched to your unique pattern. Works alongside conventional care.",
 };

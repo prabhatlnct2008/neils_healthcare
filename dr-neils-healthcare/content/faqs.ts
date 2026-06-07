@@ -32,7 +32,7 @@ export const faqs: FAQ[] = [
   {
     question: "Is a homeopath the same as a naturopath?",
     answer:
-      "No. A naturopath is a broader practitioner who may use herbs, nutrition, supplements, hydrotherapy, and sometimes homeopathy. A *classical* homeopath like Dr. Neil uses one carefully selected homeopathic remedy at a time. We do not prescribe herbs, supplements, or vitamins. We do not run lab tests. We do one thing — homeopathy — and we do it carefully.",
+      "No. A naturopath is a broader practitioner who may use herbs, nutrition, supplements, hydrotherapy, and sometimes homeopathy. A *classical* homeopath like Dr. NillMani uses one carefully selected homeopathic remedy at a time. We do not prescribe herbs, supplements, or vitamins. We do not run lab tests. We do one thing — homeopathy — and we do it carefully.",
     category: "about-homeopathy",
   },
 
@@ -40,13 +40,13 @@ export const faqs: FAQ[] = [
   {
     question: "What happens during my $150 consultation?",
     answer:
-      "A lot of questions. About your symptoms, your medical history, your sleep, your moods, your stress, your cravings, what time of day you feel best. Every detail helps Dr. Neil match the remedy to *you*. Most consultations run a full 30 minutes. We don't rush.",
+      "A lot of questions. About your symptoms, your medical history, your sleep, your moods, your stress, your cravings, what time of day you feel best. Every detail helps Dr. NillMani match the remedy to *you*. Most consultations run a full 30 minutes. We don't rush.",
     category: "practice",
   },
   {
-    question: "Is Dr. Neil a medical doctor?",
+    question: "Is Dr. NillMani a medical doctor?",
     answer:
-      "Dr. Neil holds an Indian homeopathy degree (BHMS) and is not licensed to diagnose disease, prescribe pharmaceuticals, or order labs in Texas. Dr. Neil works alongside your primary care physician and specialists. Nothing on this website is medical advice, and a homeopathic consultation is not a substitute for the care of a licensed medical doctor.",
+      "Dr. NillMani is Stanford-certified in herbal medicine and holds a Bachelor of Electropathy Medicine and Surgery (BEMS) and a PhD in Biomedical Engineering from IIT. Dr. NillMani is not licensed to diagnose disease, prescribe pharmaceuticals, or order labs in Texas, and works alongside your primary care physician and specialists. Nothing on this website is medical advice, and a homeopathic consultation is not a substitute for the care of a licensed medical doctor.",
     category: "practice",
   },
   {
@@ -86,7 +86,7 @@ export const faqs: FAQ[] = [
   {
     question: "Is homeopathy safe for children?",
     answer:
-      "Children typically respond beautifully to homeopathy — it's gentle, non-toxic, and well-tolerated. Dr. Neil sees kids regularly for ear infections, eczema, anxiety, behavioral concerns, and recurring colds. Pediatric consultations include time with the parent as well as the child, when developmentally appropriate.",
+      "Children typically respond beautifully to homeopathy — it's gentle, non-toxic, and well-tolerated. Dr. NillMani sees kids regularly for ear infections, eczema, anxiety, behavioral concerns, and recurring colds. Pediatric consultations include time with the parent as well as the child, when developmentally appropriate.",
     category: "conditions-safety",
   },
   {
@@ -98,7 +98,7 @@ export const faqs: FAQ[] = [
   {
     question: "Will I get worse before I get better?",
     answer:
-      "Sometimes. A brief intensification of symptoms, called a \"homeopathic aggravation,\" can occur in the first few days after taking a remedy. It's typically short-lived and is generally considered a sign that the remedy is acting. Dr. Neil will prepare you for what to watch for and what's normal.",
+      "Sometimes. A brief intensification of symptoms, called a \"homeopathic aggravation,\" can occur in the first few days after taking a remedy. It's typically short-lived and is generally considered a sign that the remedy is acting. Dr. NillMani will prepare you for what to watch for and what's normal.",
     category: "conditions-safety",
   },
 ];

@@ -17,7 +17,7 @@ import { Eyebrow } from "@/components/primitives/Eyebrow";
 import { Button } from "@/components/primitives/Button";
 
 export const metadata: Metadata = {
-  title: "How a Homeopathic Consultation Works | Dr Neil's Healthcare",
+  title: "How a Homeopathic Consultation Works | Dr NillMani's Healthcare",
   description:
     "From booking to your first dose: learn what happens in a 30-minute homeopathic consultation. No rushed visits. Real listening. Personalized remedies.",
 };
@@ -36,14 +36,14 @@ export default function HowItWorksPage() {
       title: "Your 30-minute consultation",
       meta: "Telehealth across Texas",
       description:
-        "Join Dr. Neil for a half hour via secure, HIPAA-compliant video. This isn't a rushed 12-minute appointment. Dr. Neil will ask detailed questions about your current symptoms, your medical history, your sleep patterns, your stress, what you crave, what you can't stand, what time of day you feel best. Every detail helps match the right remedy to your unique pattern. Most patients tell us this is the first time a healthcare provider has actually listened.",
+        "Join Dr. NillMani for a half hour via secure, HIPAA-compliant video. This isn't a rushed 12-minute appointment. Dr. NillMani will ask detailed questions about your current symptoms, your medical history, your sleep patterns, your stress, what you crave, what you can't stand, what time of day you feel best. Every detail helps match the right remedy to your unique pattern. Most patients tell us this is the first time a healthcare provider has actually listened.",
     },
     {
       number: "03",
       title: "Your personalized remedy plan",
       meta: "Delivered in 48 hours",
       description:
-        "Within 48 hours, Dr. Neil reviews your case and matches you to the remedy — or combination of remedies — that fits your unique pattern. You'll receive a detailed written plan with dosing instructions, what to expect, what to watch for, and when to follow up. The plan is written in plain English, not medical jargon.",
+        "Within 48 hours, Dr. NillMani reviews your case and matches you to the remedy — or combination of remedies — that fits your unique pattern. You'll receive a detailed written plan with dosing instructions, what to expect, what to watch for, and when to follow up. The plan is written in plain English, not medical jargon.",
     },
     {
       number: "04",
@@ -65,12 +65,12 @@ export default function HowItWorksPage() {
     {
       question: "What happens during my $150 consultation?",
       answer:
-        "A lot of questions. About your symptoms, your medical history, your sleep, your moods, your stress, your cravings, what time of day you feel best. Every detail helps Dr. Neil match the remedy to *you*. Most consultations run a full 30 minutes. We don't rush.",
+        "A lot of questions. About your symptoms, your medical history, your sleep, your moods, your stress, your cravings, what time of day you feel best. Every detail helps Dr. NillMani match the remedy to *you*. Most consultations run a full 30 minutes. We don't rush.",
     },
     {
       question: "Do I need to prepare anything before my appointment?",
       answer:
-        "Complete the intake form (you'll receive it after booking), find a quiet private space for telehealth, have your medication list ready, and think about your symptoms — what makes them better, what makes them worse, when they're strongest. Don't stress about what to say — Dr. Neil will guide the conversation.",
+        "Complete the intake form (you'll receive it after booking), find a quiet private space for telehealth, have your medication list ready, and think about your symptoms — what makes them better, what makes them worse, when they're strongest. Don't stress about what to say — Dr. NillMani will guide the conversation.",
     },
     {
       question: "How long until I see results?",
@@ -237,7 +237,7 @@ export default function HowItWorksPage() {
                   1. You'll receive your remedy plan (48 hours)
                 </h3>
                 <p className="text-base text-ink-secondary leading-relaxed">
-                  Dr. Neil reviews your case and writes a detailed plan: which remedy (or remedies), dosing instructions, what to expect, what to watch for, and when to follow up. You'll receive this via email within 48 hours.
+                  Dr. NillMani reviews your case and writes a detailed plan: which remedy (or remedies), dosing instructions, what to expect, what to watch for, and when to follow up. You'll receive this via email within 48 hours.
                 </p>
               </div>
 
@@ -264,7 +264,7 @@ export default function HowItWorksPage() {
                   4. Follow up at 4–6 weeks
                 </h3>
                 <p className="text-base text-ink-secondary leading-relaxed">
-                  Schedule your follow-up consultation (15 minutes, $85) at the 4-6 week mark. Dr. Neil will assess what's working, what's not, and whether to continue, adjust, or change remedies. This is how homeopathy works — iteratively, over time.
+                  Schedule your follow-up consultation (15 minutes, $85) at the 4-6 week mark. Dr. NillMani will assess what's working, what's not, and whether to continue, adjust, or change remedies. This is how homeopathy works — iteratively, over time.
                 </p>
               </div>
             </div>
@@ -314,7 +314,7 @@ export default function HowItWorksPage() {
             </DisplayHeading>
 
             <p className="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-              $150. A half hour with Dr. Neil. A personalized remedy plan in 48 hours. No rush. Real listening.
+              $150. A half hour with Dr. NillMani. A personalized remedy plan in 48 hours. No rush. Real listening.
             </p>
 
             <div className="pt-4">
@@ -324,7 +324,7 @@ export default function HowItWorksPage() {
             </div>
 
             <p className="text-sm text-ink-on-dark/70 pt-4">
-              Still have questions? Email [Email] — Dr. Neil personally replies within one business day
+              Still have questions? Email [Email] — Dr. NillMani personally replies within one business day
             </p>
           </div>
         </div>

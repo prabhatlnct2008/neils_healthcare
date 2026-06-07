@@ -17,7 +17,7 @@ const instrumentSans = Instrument_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Dr Neil's Healthcare | Homeopathy in Houston | $150 Consultation",
+  title: "Dr NillMani's Healthcare | Homeopathy in Houston | $150 Consultation",
   description: "Personalized homeopathic care in Houston, Sugar Land, Katy & beyond. 30-minute consultation $150. Remedies delivered in 7 days. Book online.",
 };
 
