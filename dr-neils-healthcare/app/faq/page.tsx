@@ -130,13 +130,13 @@ export default function FAQPage() {
               </DisplayHeading>
 
               <p className="text-lg text-ink-secondary leading-relaxed">
-                If your question isn't answered here, email Dr. NillMani directly. We'd rather you ask than wonder.
+                If your question isn't answered here, email Dr. Nill Mani directly. We'd rather you ask than wonder.
               </p>
 
               <div className="space-y-2 text-base text-ink-secondary">
                 <p>✉️ <strong>[Email]</strong></p>
                 <p className="text-sm text-ink-tertiary">
-                  Dr. NillMani personally replies within one business day
+                  Dr. Nill Mani personally replies within one business day
                 </p>
               </div>
 
